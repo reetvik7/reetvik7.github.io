@@ -8,6 +8,11 @@ import {
   SiMacos,
 } from "react-icons/si";
 
+import { SiPowerbi } from "react-icons/si";
+import { SiTableau } from "react-icons/si";
+import { FaConfluence } from "react-icons/fa";
+import { FaAtlassian } from "react-icons/fa";
+
 function Toolstack() {
   return (
     <Row style={{ justifyContent: "center", paddingBottom: "50px" }}>
@@ -24,8 +29,18 @@ function Toolstack() {
         <SiSlack />
       </Col>
       <Col xs={4} md={2} className="tech-icons">
-        <SiVercel />
+        <SiPowerbi />
       </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiTableau />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaConfluence />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <FaAtlassian />
+      </Col>
+
     </Row>
   );
 }

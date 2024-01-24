@@ -8,6 +8,7 @@ import {
   AiFillInstagram,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 function Home2() {
   return (
@@ -19,37 +20,40 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I have at least learnt
-              something, I think… 🤷‍♂️
-              <br />
-              <br />I am fluent in classics like
-              <i>
-                <b className="purple"> C++, Javascript and Go. </b>
-              </i>
-              <br />
-              <br />
-              My field of Interest's are building new &nbsp;
-              <i>
-                <b className="purple">Web Technologies and Products </b> and
-                also in areas related to{" "}
-                <b className="purple">
-                  Blockchain.
-                </b>
-              </i>
+              I'm an aspiring Product Manager currently pursuing my <b className="purple"> MBA </b> at
+              <b className="purple"> Georgetown University McDonough School of Business.</b> With a background in
+              <b className="purple"> cloud architecture, DevOps, managing engineering teams and successful product delivery</b>, I bring a
+              unique blend of technical expertise and strategic thinking to the table.
+              Explore my journey and discover how I drive impactful product
+              development in the ever-evolving tech landscape.
               <br />
               <br />
-              Whenever possible, I also apply my passion for developing products
-              with <b className="purple">Node.js</b> and
-              <i>
-                <b className="purple">
-                  {" "}
-                  Modern Javascript Library and Frameworks
-                </b>
-              </i>
-              &nbsp; like
-              <i>
-                <b className="purple"> React.js and Next.js</b>
-              </i>
+              <br />
+              <h1 style={{ fontSize: "2.3em" }}>
+              <span className="purple"><center> WHAT I DO</center></span>
+              </h1>
+              <b className="purple"><h1 style={{ fontSize: "1.3em" }}>PRODUCT MANAGEMENT</h1></b>
+              
+              Developing product vision and strategy, making sure teams work on the right problems for customers and the business, designing systems to ensure great execution and delivery.
+              <br />
+              <br />
+              <b className="purple"><h1 style={{ fontSize: "1.3em" }}>PRODUCT STRATEGY</h1></b>
+              Defining a product's vision, goals, and roadmap to ensure successful development and market success
+              <br />
+              <br />
+              <b className="purple"><h1 style={{ fontSize: "1.3em" }}>CLOUD ARCHITECTURE & AUTOMATION</h1></b>
+              As a Cloud Architect with dual certifications—AWS Certified Cloud Architect and GCP Certified Cloud Architect—I excel in designing and managing scalable cloud solutions. Through my expertise in Cloud Architecture and Automation, I ensure optimal resource utilization, driving innovation and efficiency within my portfolio.
+              <br />
+              <br />
+              <b className="purple"><h1 style={{ fontSize: "1.3em" }}>USER EXPERIENCE RESEARCH & DESIGN</h1></b>
+              Understand the problem, empathize with the person. Explore the competitive landscape. Identify strategic opportunities. Define design goals and requirements.
+              <br />
+              <br />
+              <b className="purple"><h1 style={{ fontSize: "1.3em" }}>DEVELOPMENT PROCESS DESIGN</h1></b>
+              Understanding the needs of developers and the rest of the business, and collaborating with engineering leaders to design a development process that fits the culture of the organization and gets everyone involved in an appropriate way.
+              <br />
+              <br />
+
             </p>
           </Col>
           <Col md={4} className="myAvtar">
@@ -67,7 +71,7 @@ function Home2() {
             <ul className="home-about-social-links">
               <li className="social-icons">
                 <a
-                  href="https://github.com/soumyajit4419"
+                  href="https://github.com/reetvik7"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -77,17 +81,7 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://twitter.com/Soumyajit4419"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour  home-social-icons"
-                >
-                  <AiOutlineTwitter />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://www.linkedin.com/in/soumyajit4419/"
+                  href="https://www.linkedin.com/in/reetvik7/"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour  home-social-icons"
@@ -97,12 +91,12 @@ function Home2() {
               </li>
               <li className="social-icons">
                 <a
-                  href="https://www.instagram.com/soumyajit4419"
+                  href="mailto:re305@georgetown.edu"
                   target="_blank"
                   rel="noreferrer"
                   className="icon-colour home-social-icons"
                 >
-                  <AiFillInstagram />
+                  <MdEmail />
                 </a>
               </li>
             </ul>
